@@ -1,15 +1,15 @@
 @font-face {
     font-family: "Heading";
-    src: url("/Fonts/made_sunflower_personal_use-webfont.woff2") format(woff2);
+    src: url("Fonts/made_sunflower_personal_use-webfont.woff2") format(woff2);
 }
 @font-face {
     font-family: "Paragraph";
-    src: url("/Fonts/lato-regular-webfont.woff2") format(woff2);
+    src: url("Fonts/lato-regular-webfont.woff2") format(woff2);
 }
 
 @font-face { 
     font-family: "Norse";
-    src: url('/Fonts/norse-bold-webfont.woff2') format(woff2);
+    src: url('Fonts/norse-bold-webfont.woff2') format(woff2);
 }
 
 *{
@@ -42,7 +42,7 @@ p{
 
     flex: 1;
     height: auto;
-    background-image: url("/imgs/White Swirl.jpg");
+    background-image: url("imgs/White Swirl.jpg");
     background-size: cover;
     background-position: center;
 }

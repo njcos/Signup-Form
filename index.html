@@ -8,8 +8,64 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Signup!</h1>
-    <p>No, really!  Sign up!</p>
+    <div class="wrapper">
+        <div class="left-panel">
+            <div class="logo-div">
+                <img class="odin-logo" src="/imgs/odin-lined.png" alt="Odin Logo">
+                <h1 class="logo-text">Odin</h1>
+            </div>
+            <div class="credit-div">
+                <p class="credit">Image by Bharath Kumar</p>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="panel-text">
+                <h1>Sign Up.</h1>
+                <p class="subhead">Fill out the form below to sign up!</p>
+            </div>
+            <form action="" method="get">
+                <div class="form-wrapper">
+                    <h1>Let's do this!</h1>
+                    <div class="inputs">
+
+                        <div class="left-form">    
+                            <div class="fname">
+                                <label for="first-name">First Name</label>
+                                <input type="text" name="first_name" class="first_name" />
+                            </div>
+                            <div class="email">
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email" class="email" />
+                            </div>
+                            <div class="pwd">
+                                <label for="pwd">Password</label>
+                                <input type="password" name="pwd" class="pwd" />
+                            </div>
+                        </div>
+                        <div class="right-form">    
+                            <div class="lname">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last_name" class="last_name" />
+                            </div>
+                            <div class="user-phone">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" name="phone" class="phone" />
+                            </div>
+                            <div class="lname">
+                                <label for="pwd-confirm">Confirm Password</label>
+                                <input type="password" name="pwd-confirm" class="pwd-confirm" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="sub-button-div">
+                    <button type="submit">Create an account</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
     
 </body>
 </html>

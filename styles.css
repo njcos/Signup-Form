@@ -16,6 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #123456;
 }
 
 h1{
@@ -155,7 +156,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #345345;
+    background-color: #123456;
     transition: all .2s;
     color: white;
 
@@ -172,4 +173,16 @@ button[type="submit"]:hover {
 
 .panel-text h1{
     font-size: 6rem;
+}
+
+.pwd:invalid,
+.pwd-confirm:invalid,
+.phone:invalid{
+    border: 1px solid red;
+    color: red;
+}
+
+.email:invalid{
+    border: 1px solid red;
+    color: red;
 }
